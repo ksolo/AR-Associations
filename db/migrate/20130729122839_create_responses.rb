@@ -5,5 +5,8 @@ class CreateResponses < ActiveRecord::Migration
       t.references :survey
       t.string     :answer
     end
+
+    add_index :responses, :user_id
+    add_index :responses, :survey_id
   end
 end
