@@ -9,3 +9,4 @@ ActiveRecord is commonly referred to as an ORM, or Object Relational Mapper.  It
 
 Each of these methods can take an options hash to help ActiveRecord work with your database.  They also add many convenience methods that make working with a model, and their associated objects much easier.
 
+More on Associations can be found on the [Rails Guides](http://guides.rubyonrails.org/association_basics.html)
